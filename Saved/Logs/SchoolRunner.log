@@ -1,9 +1,10 @@
-﻿Log file open, 10/03/16 11:59:41
-LogInit:Display: Running engine for game: SchoolRunner
+﻿Log file open, 10/04/16 08:02:10
+LogInit:Display: Running engine without a game
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-371868577) SRandInit(-371868575).
+LogInit:Display: Loading recent project file: ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/SchoolRunner.uproject
+LogInit:Display: RandInit(98699654) SRandInit(98699656).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.065222
+LogStats: Stats thread started at 0.068069
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -25,7 +26,7 @@ LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
@@ -44,244 +45,437 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.10.03-15.59.41:605][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.03-15.59.41:605][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.10.03-15.59.41:611][  0]LogInit: Computer: 2016-KISER-06
-[2016.10.03-15.59.41:611][  0]LogInit: User: anpaint19
-[2016.10.03-15.59.41:611][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.10.03-15.59.41:611][  0]LogInit: High frequency timer resolution =3.328203 MHz
-[2016.10.03-15.59.41:611][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.10.03-15.59.41:611][  0]LogMemory: Platform Memory Stats for Windows
-[2016.10.03-15.59.41:611][  0]LogMemory: Process Physical Memory: 191.66 MB used, 191.66 MB peak
-[2016.10.03-15.59.41:611][  0]LogMemory: Process Virtual Memory: 197.00 MB used, 197.00 MB peak
-[2016.10.03-15.59.41:611][  0]LogMemory: Physical Memory: 3868.97 MB used, 16304.60 MB total
-[2016.10.03-15.59.41:611][  0]LogMemory: Virtual Memory: 522.00 MB used, 8388608.00 MB total
-[2016.10.03-15.59.41:637][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.10.03-15.59.41:939][  0]LogD3D11RHI: D3D11 adapters:
-[2016.10.03-15.59.41:954][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200 ' (Feature Level 11_0)
-[2016.10.03-15.59.41:954][  0]LogD3D11RHI:       4034/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2016.10.03-15.59.41:954][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.10.03-15.59.41:957][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.10.03-15.59.41:957][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
-[2016.10.03-15.59.41:957][  0]LogWindows: EnumDisplayDevices:
-[2016.10.03-15.59.41:957][  0]LogWindows:    0. 'NVIDIA Quadro K2200 ' (P:0 D:1)
-[2016.10.03-15.59.41:957][  0]LogWindows:    1. 'NVIDIA Quadro K2200 ' (P:1 D:1)
-[2016.10.03-15.59.41:958][  0]LogWindows:    2. 'NVIDIA Quadro K2200 ' (P:0 D:0)
-[2016.10.03-15.59.41:958][  0]LogWindows:    3. 'NVIDIA Quadro K2200 ' (P:0 D:0)
-[2016.10.03-15.59.41:958][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2016.10.03-15.59.41:958][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2016.10.03-15.59.41:958][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2016.10.03-15.59.41:958][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2016.10.03-15.59.41:958][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200 
-[2016.10.03-15.59.41:958][  0]LogD3D11RHI:   Driver Version: 361.91 (internal:10.18.13.6191, unified:361.91)
-[2016.10.03-15.59.41:958][  0]LogD3D11RHI:      Driver Date: 2-8-2016
-[2016.10.03-15.59.41:958][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.10.03-15.59.41:964][  0]LogD3D11RHI: Async texture creation enabled
-[2016.10.03-15.59.41:977][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2016.10.03-15.59.41:977][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Intermediate/Shaders/WorkingDirectory/6976/).
-[2016.10.03-15.59.41:977][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ANPAIN~1/AppData/Local/Temp/UnrealShaderWorkingDir/C6A1DDD4480268CDB2C6C28E2F98138B/'.
-[2016.10.03-15.59.41:977][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.10.03-15.59.42:667][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.10.03-15.59.42:674][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.10.03-15.59.42:681][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.10.03-15.59.42:689][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.10.03-15.59.42:697][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.10.03-15.59.42:703][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.10.03-15.59.42:709][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.10.03-15.59.42:715][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.10.03-15.59.42:721][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.10.03-15.59.42:727][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.10.03-15.59.42:733][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.10.03-15.59.42:745][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.10.03-15.59.42:745][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.10.03-15.59.42:746][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.10.03-15.59.42:765][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.10.03-15.59.42:771][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.10.03-15.59.42:776][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.10.03-15.59.42:782][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.10.03-15.59.42:788][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.10.03-15.59.42:788][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.10.03-15.59.42:844][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.10.03-15.59.42:884][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/anpaint19/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.10.03-15.59.42:885][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/anpaint19/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.10.03-15.59.42:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.10.03-15.59.42:885][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.10.03-15.59.42:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.10.03-15.59.42:885][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.10.03-15.59.42:898][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.10.03-15.59.42:909][  0]LogDerivedDataCache: Using Local data cache path C:/Users/anpaint19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.10.03-15.59.43:033][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.03-15.59.43:034][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.10.03-15.59.43:150][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.10.03-15.59.43:150][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.10.03-15.59.43:150][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.10.03-15.59.43:342][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
-[2016.10.03-15.59.43:358][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.013264 seconds
-[2016.10.03-15.59.43:362][  0]LogUObjectArray: 28741 objects as part of root set at end of initial load.
-[2016.10.03-15.59.43:362][  0]LogUObjectAllocator: 5855912 out of 0 bytes used by permanent object pool.
-[2016.10.03-15.59.43:362][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.10.03-15.59.43:368][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.10.03-15.59.43:502][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.03-15.59.43:502][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.03-15.59.43:948][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.10.03-15.59.44:162][  0]SourceControl: Info Source control is disabled
-[2016.10.03-15.59.44:163][  0]SourceControl: Info Source control is disabled
-[2016.10.03-15.59.44:169][  0]SourceControl: Info Source control is disabled
-[2016.10.03-15.59.44:174][  0]SourceControl: Info Source control is disabled
-[2016.10.03-15.59.44:313][  0]LogEngine: Initializing Engine...
-[2016.10.03-15.59.44:313][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.10.03-15.59.44:314][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.10.03-15.59.44:418][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.10.03-15.59.44:422][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.10.03-15.59.44:438][  0]LogInit: FAudioDevice initialized.
-[2016.10.03-15.59.44:457][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/anpaint19/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.10.03-15.59.44:460][  0]LogInit: Texture streaming: Enabled
-[2016.10.03-15.59.44:477][  0]LogInit: Transaction tracking system initialized
-[2016.10.03-15.59.44:496][  0]BlueprintLog: New page: Editor Load
-[2016.10.03-15.59.44:554][  0]LocalizationService: Info Localization service is disabled
-[2016.10.03-15.59.44:600][  0]LogConsoleResponse:Display: 
-[2016.10.03-15.59.44:678][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.10.03-15.59.44:678][  0]LogCook:Display: Mobile HDR setting 1
-[2016.10.03-15.59.44:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/' took 0.03s
-[2016.10.03-15.59.44:750][  0]SourceControl: Info Source control is disabled
-[2016.10.03-15.59.44:750][  0]Cmd: MAP LOAD FILE="../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.10.03-15.59.44:750][  0]LightingResults: New page: Lighting Build
-[2016.10.03-15.59.44:753][  0]MapCheck: New page: Map Check
-[2016.10.03-15.59.44:753][  0]LightingResults: New page: Lighting Build
-[2016.10.03-15.59.44:775][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.10.03-15.59.44:776][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.10.03-15.59.44:777][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.10.03-15.59.44:777][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.10.03-15.59.44:778][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.10.03-15.59.44:778][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.10.03-15.59.44:779][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.10.03-15.59.45:056][  0]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2016.10.03-15.59.45:057][  0]LogBlueprint:Warning: Compiler Warning [0004.02] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-15.59.45:057][  0]LogBlueprint:Warning: Compiler Warning [0004.02] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-15.59.45:057][  0]LogBlueprint:Warning: Compiler Warning [0004.02] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-15.59.45:603][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.10.03-15.59.45:880][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.10.03-15.59.45:881][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.10.03-15.59.45:910][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.538ms to complete.
-[2016.10.03-15.59.45:910][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.160
-[2016.10.03-15.59.45:991][  0]LogCollectionManager: Loaded 0 collections in 0.001741 seconds
-[2016.10.03-15.59.46:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/Collections/' took 0.01s
-[2016.10.03-15.59.46:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Developers/anpaint19/Collections/' took 0.01s
-[2016.10.03-15.59.46:029][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Collections/' took 0.01s
-[2016.10.03-15.59.46:029][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.10.03-15.59.46:036][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2047 classes and 369 folders.
-[2016.10.03-15.59.46:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.10.03-15.59.46:040][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.10.03-15.59.46:040][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
-[2016.10.03-15.59.46:044][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.10.03-15.59.46:070][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.10.03-15.59.46:665][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.10.03-15.59.46:676][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.10.03-15.59.46:686][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.10.03-15.59.46:709][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.10.03-15.59.46:710][  0]LogLoad: Full Startup: 5.68 seconds (BP compile: 0.09 seconds)
-[2016.10.03-15.59.46:710][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2016.10.03-15.59.46:720][  0]LogOcInput: OculusInput pre-init called
-[2016.10.03-15.59.46:740][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.10.03-15.59.46:917][  0]LogRenderer: Reallocating scene render targets to support 760x868 (Frame:2).
-[2016.10.03-15.59.47:045][  2]LogAssetRegistry: Asset discovery search completed in 3.7229 seconds
-[2016.10.03-15.59.47:045][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2016.10.03-15.59.47:045][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2016.10.03-15.59.54:272][567]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:272][567]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:272][567]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:272][567]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator7' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:272][567]LogEnum:Warning: Enum name collision: 'EIntTypes::EIntTypes_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:356][567]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:356][567]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:356][567]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:356][567]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator7' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
-[2016.10.03-15.59.54:414][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:414][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:414][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:414][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:414][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::EFloatTypes_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:432][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:432][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:432][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:432][567]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator10' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator8' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator9' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::RenderToTexture_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator10' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator8' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:483][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator9' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
-[2016.10.03-15.59.54:484][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
-[2016.10.03-15.59.54:484][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
-[2016.10.03-15.59.54:484][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
-[2016.10.03-15.59.54:484][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::RenderToTexture_Flipbook_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
-[2016.10.03-15.59.54:484][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
-[2016.10.03-15.59.54:484][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
-[2016.10.03-15.59.54:484][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
-[2016.10.03-15.59.54:485][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
-[2016.10.03-15.59.54:485][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
-[2016.10.03-15.59.54:485][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::RenderToTexture_Imposter_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
-[2016.10.03-15.59.54:485][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
-[2016.10.03-15.59.54:485][567]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator8' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator7' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::AnimsForHands_MAX' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator8' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:486][567]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator7' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
-[2016.10.03-15.59.54:492][567]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 111 classes and 0 folders.
-[2016.10.03-16.00.08:011][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.10.03-16.00.08:011][641]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.10.03-16.00.08:011][641]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
-[2016.10.03-16.00.08:167][641]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
-[2016.10.03-16.00.08:302][641]LogBlueprint:Warning: Compiler Warning [0027.27] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 289 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-16.00.08:303][641]LogBlueprint:Warning: Compiler Warning [0027.27] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-16.00.08:304][641]LogBlueprint:Warning: Compiler Warning [0027.27] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-16.00.08:304][641]LogBlueprint:Warning: Compiler Warning [0027.27] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-16.00.08:304][641]LogBlueprint:Warning: Compiler Warning [0027.27] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-16.00.08:304][641]LogBlueprint:Warning: Compiler Warning [0027.27] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2016.10.03-16.00.08:305][641]LogPlayLevel: PlayLevel: Blueprint regeneration took 293 ms (1 blueprints)
-[2016.10.03-16.00.08:346][641]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
-[2016.10.03-16.00.12:595][641]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 3, 2016, 7:00:12 AM)
-[2016.10.03-16.00.12:595][641]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2016.10.03-16.00.12:813][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.218025s)
-[2016.10.03-16.00.12:814][641]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.10.03-16.00.12:814][641]LogPlayLevel: PIE: World Init took: (0.000895s)
-[2016.10.03-16.00.12:814][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.219584s)
-[2016.10.03-16.00.12:833][641]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.10.03-16.00.12:841][641]LogInit: FAudioDevice initialized.
-[2016.10.03-16.00.12:918][641]LogWorld: Game class is 'ThirdPersonGameMode_C'
-[2016.10.03-16.00.12:997][641]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.03-12.00.12
-[2016.10.03-16.00.13:015][641]LogWorld: Bringing up level for play took: 0.095090
-[2016.10.03-16.00.13:018][641]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2016.10.03-16.00.13:020][641]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 5.218
-[2016.10.03-16.00.13:020][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2016.10.03-16.00.30:132][826]LogBlueprintUserMessages: [BP_Pickup_Child_Hex_155] Destination Reached
-[2016.10.03-16.00.39:201][596]LogBlueprintUserMessages: [BP_Pickup_Child_Hex3] Destination Reached
-[2016.10.03-16.01.11:937][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/T
+[2016.10.04-12.02.10:200][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.04-12.02.10:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.04-12.02.10:207][  0]LogInit: Computer: 2016-KISER-06
+[2016.10.04-12.02.10:207][  0]LogInit: User: anpaint19
+[2016.10.04-12.02.10:207][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.04-12.02.10:207][  0]LogInit: High frequency timer resolution =3.328349 MHz
+[2016.10.04-12.02.10:207][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.10.04-12.02.10:207][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.04-12.02.10:207][  0]LogMemory: Process Physical Memory: 191.64 MB used, 191.64 MB peak
+[2016.10.04-12.02.10:207][  0]LogMemory: Process Virtual Memory: 196.98 MB used, 196.98 MB peak
+[2016.10.04-12.02.10:207][  0]LogMemory: Physical Memory: 2831.62 MB used, 16304.60 MB total
+[2016.10.04-12.02.10:207][  0]LogMemory: Virtual Memory: 522.00 MB used, 8388608.00 MB total
+[2016.10.04-12.02.10:233][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.04-12.02.10:565][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.04-12.02.10:579][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200 ' (Feature Level 11_0)
+[2016.10.04-12.02.10:579][  0]LogD3D11RHI:       4034/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.04-12.02.10:579][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.04-12.02.10:583][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.04-12.02.10:583][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2016.10.04-12.02.10:583][  0]LogWindows: EnumDisplayDevices:
+[2016.10.04-12.02.10:583][  0]LogWindows:    0. 'NVIDIA Quadro K2200 ' (P:0 D:1)
+[2016.10.04-12.02.10:583][  0]LogWindows:    1. 'NVIDIA Quadro K2200 ' (P:1 D:1)
+[2016.10.04-12.02.10:583][  0]LogWindows:    2. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2016.10.04-12.02.10:583][  0]LogWindows:    3. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2016.10.04-12.02.10:583][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.04-12.02.10:583][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.04-12.02.10:583][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.04-12.02.10:583][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.10.04-12.02.10:583][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200 
+[2016.10.04-12.02.10:583][  0]LogD3D11RHI:   Driver Version: 361.91 (internal:10.18.13.6191, unified:361.91)
+[2016.10.04-12.02.10:583][  0]LogD3D11RHI:      Driver Date: 2-8-2016
+[2016.10.04-12.02.10:583][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.04-12.02.10:590][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.04-12.02.10:603][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.04-12.02.10:603][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Intermediate/Shaders/WorkingDirectory/2176/).
+[2016.10.04-12.02.10:603][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ANPAIN~1/AppData/Local/Temp/UnrealShaderWorkingDir/D8F9A4BD44D520FE4155FEADA48CB0FE/'.
+[2016.10.04-12.02.10:603][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.04-12.02.11:463][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.04-12.02.11:472][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.04-12.02.11:480][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.04-12.02.11:489][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.04-12.02.11:497][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.04-12.02.11:504][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.04-12.02.11:511][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.04-12.02.11:517][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.04-12.02.11:524][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.04-12.02.11:530][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.04-12.02.11:537][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.04-12.02.11:551][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.04-12.02.11:551][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.04-12.02.11:552][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.04-12.02.11:572][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.04-12.02.11:578][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.04-12.02.11:584][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.04-12.02.11:591][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.04-12.02.11:597][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.04-12.02.11:597][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.04-12.02.11:658][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.04-12.02.11:722][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/anpaint19/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.04-12.02.11:722][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/anpaint19/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.04-12.02.11:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.04-12.02.11:723][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.04-12.02.11:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.04-12.02.11:723][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.04-12.02.11:736][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.04-12.02.11:747][  0]LogDerivedDataCache: Using Local data cache path C:/Users/anpaint19/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.04-12.02.11:878][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.04-12.02.11:879][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.04-12.02.12:007][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.04-12.02.12:007][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.04-12.02.12:007][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.04-12.02.12:211][  0]LogAssetRegistry: FAssetRegistry took 0.0194 seconds to start up
+[2016.10.04-12.02.12:232][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019355 seconds
+[2016.10.04-12.02.12:237][  0]LogUObjectArray: 28741 objects as part of root set at end of initial load.
+[2016.10.04-12.02.12:237][  0]LogUObjectAllocator: 5855912 out of 0 bytes used by permanent object pool.
+[2016.10.04-12.02.12:237][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.04-12.02.12:245][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.04-12.02.12:393][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.04-12.02.12:393][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.04-12.02.12:859][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.04-12.02.13:032][  0]SourceControl: Info Source control is disabled
+[2016.10.04-12.02.13:032][  0]SourceControl: Info Source control is disabled
+[2016.10.04-12.02.13:038][  0]SourceControl: Info Source control is disabled
+[2016.10.04-12.02.13:044][  0]SourceControl: Info Source control is disabled
+[2016.10.04-12.02.13:193][  0]LogEngine: Initializing Engine...
+[2016.10.04-12.02.13:193][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.04-12.02.13:194][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.04-12.02.13:313][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.04-12.02.13:316][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.04-12.02.13:330][  0]LogInit: FAudioDevice initialized.
+[2016.10.04-12.02.13:349][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/anpaint19/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.04-12.02.13:352][  0]LogInit: Texture streaming: Enabled
+[2016.10.04-12.02.13:380][  0]LogInit: Transaction tracking system initialized
+[2016.10.04-12.02.13:400][  0]BlueprintLog: New page: Editor Load
+[2016.10.04-12.02.13:462][  0]LocalizationService: Info Localization service is disabled
+[2016.10.04-12.02.13:513][  0]LogConsoleResponse:Display: 
+[2016.10.04-12.02.13:608][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.04-12.02.13:608][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.04-12.02.13:683][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/' took 0.03s
+[2016.10.04-12.02.13:683][  0]SourceControl: Info Source control is disabled
+[2016.10.04-12.02.13:684][  0]Cmd: MAP LOAD FILE="../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.04-12.02.13:684][  0]LightingResults: New page: Lighting Build
+[2016.10.04-12.02.13:686][  0]MapCheck: New page: Map Check
+[2016.10.04-12.02.13:686][  0]LightingResults: New page: Lighting Build
+[2016.10.04-12.02.13:714][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.04-12.02.13:715][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.04-12.02.13:716][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.04-12.02.13:717][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.04-12.02.13:718][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.04-12.02.13:719][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.04-12.02.13:720][  0]LogLinker:Warning: Asset '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.04-12.02.14:080][  0]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.04-12.02.14:081][  0]LogBlueprint:Warning: Compiler Warning [0004.54] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-12.02.14:082][  0]LogBlueprint:Warning: Compiler Warning [0004.54] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-12.02.14:082][  0]LogBlueprint:Warning: Compiler Warning [0004.54] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-12.02.14:492][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.10.04-12.02.14:563][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.10.04-12.02.14:568][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.10.04-12.02.14:604][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.10.04-12.02.14:610][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.10.04-12.02.14:649][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.10.04-12.02.14:923][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.04-12.02.15:308][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.04-12.02.15:309][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.04-12.02.15:337][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.786ms to complete.
+[2016.10.04-12.02.15:337][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.653
+[2016.10.04-12.02.15:400][  0]LogCollectionManager: Loaded 0 collections in 0.001646 seconds
+[2016.10.04-12.02.15:437][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/Collections/' took 0.01s
+[2016.10.04-12.02.15:437][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Developers/anpaint19/Collections/' took 0.01s
+[2016.10.04-12.02.15:437][  0]LogFileCache: Scanning file cache for directory 'C:/Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Collections/' took 0.01s
+[2016.10.04-12.02.15:437][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.04-12.02.15:443][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2047 classes and 369 folders.
+[2016.10.04-12.02.15:448][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.04-12.02.15:448][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.04-12.02.15:448][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.10.04-12.02.15:453][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.04-12.02.15:485][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.04-12.02.16:191][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.04-12.02.16:203][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.04-12.02.16:213][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.04-12.02.16:237][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.04-12.02.16:237][  0]LogLoad: Full Startup: 6.70 seconds (BP compile: 0.12 seconds)
+[2016.10.04-12.02.16:237][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.04-12.02.16:248][  0]LogOcInput: OculusInput pre-init called
+[2016.10.04-12.02.16:270][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.04-12.02.16:469][  0]LogRenderer: Reallocating scene render targets to support 760x868 (Frame:2).
+[2016.10.04-12.02.16:667][  2]LogAssetRegistry: Asset discovery search completed in 4.4755 seconds
+[2016.10.04-12.02.16:667][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.04-12.02.16:667][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.10.04-12.04.33:942][942]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.04-12.04.53:619][126]Cmd: MODE GRID=0
+[2016.10.04-12.04.57:437][580]LogEditorViewport: Clicking Background
+[2016.10.04-12.04.58:366][691]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush51)
+[2016.10.04-12.05.05:373][508]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush51)
+[2016.10.04-12.06.16:276][777]LogHttp:Warning: Timeout processing Http request. 000000002A4FC880
+[2016.10.04-12.07.26:014][958]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.04-12.07.39:276][529]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush56)
+[2016.10.04-12.08.05:547][325]LogEditorViewport: Clicking Background
+[2016.10.04-12.08.33:801][909]LogEditorViewport: Clicking Background
+[2016.10.04-12.08.35:852][155]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush56)
+[2016.10.04-12.09.25:370][885]LogEditorViewport: Clicking Background
+[2016.10.04-12.09.27:355][123]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush56)
+[2016.10.04-12.09.42:952][799]LogEditorViewport: Clicking Background
+[2016.10.04-12.11.59:272][925]Cmd: EDCALLBACK SURFPROPS
+[2016.10.04-12.12.19:304][ 43]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame3)
+[2016.10.04-12.12.33:217][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2016.10.04-12.12.40:631][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame2)
+[2016.10.04-12.12.51:881][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame4)
+[2016.10.04-12.20.02:992][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame5)
+[2016.10.04-12.22.39:572][492]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint5)
+[2016.10.04-12.25.34:327][230]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2016.10.04-12.25.34:527][230]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2016.10.04-12.25.34:533][230]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.04-12.25.34:560][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.10.04-12.25.34:563][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.10.04-12.25.34:565][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.10.04-12.25.34:568][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionBumpOffset_0, compiling. 
+[2016.10.04-12.25.34:574][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.10.04-12.25.34:577][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2016.10.04-12.25.34:580][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2016.10.04-12.25.34:583][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2016.10.04-12.25.35:662][255]MaterialEditorStats: Info Base pass shader with static lighting: 95 instructions
+[2016.10.04-12.25.35:662][255]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2016.10.04-12.25.35:662][255]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.10.04-12.25.35:662][255]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.10.04-12.26.16:396][461]LogHttp:Warning: Timeout processing Http request. 000000009B39E800
+[2016.10.04-12.29.13:323][662]Cmd: SELECT NONE
+[2016.10.04-12.31.16:345][765]LogHttp:Warning: Timeout processing Http request. 0000000052360400
+[2016.10.04-12.32.36:866][992]Cmd: SELECT NONE
+[2016.10.04-12.37.32:603][732]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.04-12.37.39:421][543]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush447)
+[2016.10.04-12.38.43:678][506]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush447)
+[2016.10.04-12.38.57:582][663]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush398)
+[2016.10.04-12.39.48:492][391]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush447)
+[2016.10.04-12.41.16:653][889]LogHttp:Warning: Timeout processing Http request. 0000000071330280
+[2016.10.04-12.48.13:212][188]Cmd: SELECT NONE
+[2016.10.04-12.48.23:365][197]Cmd: DELETE
+[2016.10.04-12.48.23:365][197]Cmd: ACTOR DELETE
+[2016.10.04-12.48.23:376][197]LogEditorActor: Deleted Actor: Brush
+[2016.10.04-12.48.24:194][197]LogEditorActor: Deleted 1 Actors (0.828 secs)
+[2016.10.04-12.51.16:493][548]LogHttp:Warning: Timeout processing Http request. 0000000080252800
+[2016.10.04-12.54.52:212][808]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.04-13.02.42:969][333]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.10.04-13.02.55:371][464]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.04-13.02.55:372][464]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.04-13.02.55:372][464]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.04-13.02.55:383][464]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.04-13.02.55:473][464]LogBlueprint:Warning: Compiler Warning [3645.69] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 99 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.02.55:473][464]LogBlueprint:Warning: Compiler Warning [3645.69] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.02.55:473][464]LogBlueprint:Warning: Compiler Warning [3645.69] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.02.55:473][464]LogBlueprint:Warning: Compiler Warning [3645.69] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.02.55:473][464]LogBlueprint:Warning: Compiler Warning [3645.69] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.02.55:473][464]LogBlueprint:Warning: Compiler Warning [3645.69] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.02.55:473][464]LogPlayLevel: PlayLevel: Blueprint regeneration took 101 ms (1 blueprints)
+[2016.10.04-13.02.55:490][464]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.04-13.02.56:758][464]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 4, 2016, 4:02:56 AM)
+[2016.10.04-13.02.56:758][464]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.04-13.02.57:062][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.303789s)
+[2016.10.04-13.02.57:062][464]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.04-13.02.57:062][464]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2016.10.04-13.02.57:063][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.305008s)
+[2016.10.04-13.02.57:101][464]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.04-13.02.57:107][464]LogInit: FAudioDevice initialized.
+[2016.10.04-13.02.57:180][464]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.04-13.02.57:252][464]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.04-09.02.57
+[2016.10.04-13.02.57:271][464]LogWorld: Bringing up level for play took: 0.088555
+[2016.10.04-13.02.57:275][464]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2016.10.04-13.02.57:281][464]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.789
+[2016.10.04-13.02.57:281][464]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.04-13.02.59:314][551]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=25.500 Y=35.754 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:331][552]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=45.600 Y=63.516 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:350][553]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=67.988 Y=93.962 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:369][554]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=92.047 Y=126.405 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:388][555]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=114.219 Y=155.350 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:409][556]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=141.416 Y=190.180 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:432][557]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=169.753 Y=225.587 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:455][558]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=199.509 Y=261.806 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:474][559]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=226.764 Y=293.684 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:493][560]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=250.954 Y=320.669 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:511][561]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=278.303 Y=349.673 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:526][562]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=300.569 Y=372.426 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:543][563]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=325.165 Y=396.830 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:560][564]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=349.057 Y=420.174 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:579][565]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=377.453 Y=447.013 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:597][566]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=390.131 Y=455.848 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:617][567]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=393.565 Y=452.887 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:636][568]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=395.949 Y=450.804 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:654][569]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=397.867 Y=449.112 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:671][570]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=399.231 Y=447.900 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:691][571]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=400.630 Y=446.650 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:708][572]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=401.491 Y=445.876 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:729][573]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=402.392 Y=445.062 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:750][574]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=403.100 Y=444.421 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:772][575]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=404.004 Y=443.599 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:791][576]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=406.631 Y=441.193 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:808][577]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=410.436 Y=437.656 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:830][578]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=417.346 Y=431.071 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:846][579]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=425.780 Y=422.742 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:861][580]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=435.180 Y=413.060 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.885 Y=-0.465 Z=-0.000 PenetrationDepth:229.321 Actor:Ceiling137 Component:CeilingTile2 BoneName:None
+[2016.10.04-13.02.59:885][581]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=451.431 Y=395.234 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=-0.976 Y=0.217 Z=0.000 PenetrationDepth:107.485 Actor:Ceiling71 Component:CeilingTile1 BoneName:None
+[2016.10.04-13.02.59:906][582]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=469.373 Y=373.750 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=-0.976 Y=0.217 Z=0.000 PenetrationDepth:107.485 Actor:Ceiling71 Component:CeilingTile1 BoneName:None
+[2016.10.04-13.02.59:927][583]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=490.003 Y=346.261 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=1.000 Z=-0.000 PenetrationDepth:255.635 Actor:None Component:ModelComponent_1092 BoneName:None
+[2016.10.04-13.02.59:955][584]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=514.113 Y=309.335 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=-1.000 Z=0.000 PenetrationDepth:700.474 Actor:None Component:ModelComponent_1090 BoneName:None
+[2016.10.04-13.02.59:987][585]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=538.609 Y=264.386 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=-1.000 Z=0.000 PenetrationDepth:700.474 Actor:None Component:ModelComponent_1090 BoneName:None
+[2016.10.04-13.03.00:017][586]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=556.564 Y=224.136 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=1.000 Z=0.000 PenetrationDepth:255.635 Actor:None Component:ModelComponent_1092 BoneName:None
+[2016.10.04-13.03.00:047][587]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=568.949 Y=190.519 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=-1.000 Z=0.000 PenetrationDepth:700.474 Actor:None Component:ModelComponent_1090 BoneName:None
+[2016.10.04-13.03.00:082][588]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=578.859 Y=157.866 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=1.000 Z=-0.000 PenetrationDepth:255.635 Actor:None Component:ModelComponent_1092 BoneName:None
+[2016.10.04-13.03.00:109][589]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=583.658 Y=139.079 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=-1.000 Z=0.000 PenetrationDepth:700.474 Actor:None Component:ModelComponent_1090 BoneName:None
+[2016.10.04-13.03.00:138][590]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=245.106 Y=58.406 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=-1.000 Z=0.000 PenetrationDepth:700.474 Actor:None Component:ModelComponent_1090 BoneName:None
+[2016.10.04-13.03.00:161][591]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=113.928 Y=27.148 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=-1.000 Z=0.000 PenetrationDepth:700.474 Actor:None Component:ModelComponent_1090 BoneName:None
+[2016.10.04-13.03.00:183][592]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=27.558 Y=6.567 Z=0.000 Location: X=497.000 Y=349.000 Z=195.000 Normal: X=0.000 Y=-1.000 Z=0.000 PenetrationDepth:700.474 Actor:None Component:ModelComponent_1090 BoneName:None
+[2016.10.04-13.03.01:531][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.04-13.03.01:685][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.04-13.03.30:190][180]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.04-13.03.30:190][180]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.04-13.03.30:190][180]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.04-13.03.30:194][180]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.04-13.03.30:279][180]LogBlueprint:Warning: Compiler Warning [3680.49] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 87 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.30:279][180]LogBlueprint:Warning: Compiler Warning [3680.49] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.30:279][180]LogBlueprint:Warning: Compiler Warning [3680.49] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.30:279][180]LogBlueprint:Warning: Compiler Warning [3680.49] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.30:279][180]LogBlueprint:Warning: Compiler Warning [3680.49] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.30:279][180]LogBlueprint:Warning: Compiler Warning [3680.49] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.30:279][180]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2016.10.04-13.03.30:289][180]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.04-13.03.31:631][180]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 4, 2016, 4:03:31 AM)
+[2016.10.04-13.03.31:631][180]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.04-13.03.31:809][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177632s)
+[2016.10.04-13.03.31:810][180]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.04-13.03.31:810][180]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2016.10.04-13.03.31:810][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.178886s)
+[2016.10.04-13.03.31:851][180]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.04-13.03.31:856][180]LogInit: FAudioDevice initialized.
+[2016.10.04-13.03.31:895][180]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.04-13.03.31:966][180]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.04-09.03.31
+[2016.10.04-13.03.31:985][180]LogWorld: Bringing up level for play took: 0.088311
+[2016.10.04-13.03.31:987][180]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.492
+[2016.10.04-13.03.31:987][180]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.04-13.03.42:701][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.04-13.03.42:869][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.04-13.03.47:025][835]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.04-13.03.47:105][835]LogBlueprint:Warning: Compiler Warning [3697.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 82 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.47:106][835]LogBlueprint:Warning: Compiler Warning [3697.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.47:106][835]LogBlueprint:Warning: Compiler Warning [3697.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.47:106][835]LogBlueprint:Warning: Compiler Warning [3697.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.47:106][835]LogBlueprint:Warning: Compiler Warning [3697.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.47:106][835]LogBlueprint:Warning: Compiler Warning [3697.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.03.48:277][835]LogSavePackage: Save=1255.87ms
+[2016.10.04-13.03.48:277][835]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapE3479EFA425DC52560D52CB0AB8C67F3.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.04-13.03.48:283][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.04-13.04.20:226][ 87]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2016.10.04-13.04.20:226][ 87]LogSynthBenchmark:Display: ===============
+[2016.10.04-13.04.20:226][ 87]LogSynthBenchmark:Display: Main Processor:
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:          ... 0.020032 s/Run 'RayIntersect'
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:          ... 0.019359 s/Run 'Fractal'
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display: 
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   CPU Perf Index 0: 127.8 (weight 1.00)
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   CPU Perf Index 1: 147.7 (weight 1.50)
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:  
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display: Graphics:
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA Quadro K2200 '
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   Device Id: 0x13ba
+[2016.10.04-13.04.20:266][ 87]LogSynthBenchmark:Display:   GPU Memory: 4035/0/7897 MB
+[2016.10.04-13.04.20:273][ 87]LogSynthBenchmark:Display:   GPU first test: 0.01s
+[2016.10.04-13.04.20:273][ 87]LogSynthBenchmark:Display:          ... 1.986 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2016.10.04-13.04.20:273][ 87]LogSynthBenchmark:Display:          ... 1.647 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2016.10.04-13.04.20:273][ 87]LogSynthBenchmark:Display:          ... 1.327 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2016.10.04-13.04.20:273][ 87]LogSynthBenchmark:Display:          ... 5.428 GigaPix/s, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2016.10.04-13.04.20:273][ 87]LogSynthBenchmark:Display:          ... 0.355 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2016.10.04-13.04.20:309][ 87]LogSynthBenchmark:Display:   GPU second test: 0.03s
+[2016.10.04-13.04.20:309][ 87]LogSynthBenchmark:Display:          ... 2.802 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2016.10.04-13.04.20:309][ 87]LogSynthBenchmark:Display:          ... 2.166 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2016.10.04-13.04.20:309][ 87]LogSynthBenchmark:Display:          ... 2.021 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2016.10.04-13.04.20:309][ 87]LogSynthBenchmark:Display:          ... 10.605 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2016.10.04-13.04.20:309][ 87]LogSynthBenchmark:Display:          ... 0.387 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2016.10.04-13.04.20:617][ 87]LogSynthBenchmark:Display:   GPU third test: 0.30s
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:          ... 3.073 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:          ... 2.372 GigaPix/s, Confidence=100% 'TexHeavy'
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:          ... 2.304 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:          ... 12.273 GigaPix/s, Confidence=100% 'FillOnly'
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:          ... 0.413 GigaPix/s, Confidence=100% 'Bandwidth'
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display: 
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:   GPU Perf Index 0: 66.8 (weight 1.00)
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:   GPU Perf Index 1: 31.8 (weight 0.10)
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:   GPU Perf Index 2: 59.9 (weight 0.10)
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:   GPU Perf Index 3: 48.2 (weight 3.00)
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:   GPU Perf Index 4: 38.6 (weight 1.00)
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:   CPUIndex: 139.8
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:   GPUIndex: 49.8
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display: 
+[2016.10.04-13.04.20:618][ 87]LogSynthBenchmark:Display:          ... Total Time: 0.391551 sec
+[2016.10.04-13.04.20:693][ 88]LogRenderer: Reallocating scene render targets to support 760x868 (Frame:254370).
+[2016.10.04-13.04.20:922][ 88]LogContentStreaming: Texture pool size now 700 MB
+[2016.10.04-13.04.30:943][ 71]MapCheck: New page: Map Check
+[2016.10.04-13.04.30:958][ 71]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.04-13.04.30:959][ 71]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.04-13.04.36:818][ 71]LogEditorServer: Cleared 7 NULL BSP materials after rebuild.
+[2016.10.04-13.04.36:820][ 71]LightingResults: New page: Lighting Build - Oct 4, 2016, 4:04:36 AM
+[2016.10.04-13.04.37:016][ 71]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.04-13.04.37:033][ 71]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.04-13.04.37:041][ 71]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.04-13.04.37:561][ 71]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.04-13.04.37:562][ 71]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2176
+[2016.10.04-13.04.45:719][ 71]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.04-13.04.45:719][ 71]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.04-13.04.45:719][ 71]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.04-13.04.45:719][ 71]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.04-13.04.45:719][ 71]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.04-13.04.46:058][ 71]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.10.04-13.04.46:058][ 71]MapCheck: New page: ThirdPersonExampleMap - Oct 4, 2016, 4:04:46 AM
+[2016.10.04-13.04.46:060][ 71]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.10.04-13.04.46:090][ 71]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 31.081ms to complete.
+[2016.10.04-13.04.46:110][ 71]LogEditorBuildUtils: Build time 0:15
+[2016.10.04-13.05.00:543][728]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2016.10.04-13.05.00:543][728]LightingResults: Info <None> Lightmap UV are overlapping by 9.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.04-13.05.02:861][  4]Job is a success!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight11_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight19 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight10_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight18 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight16_7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight6_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.05:960][  5]LightingResults:Error: Error PointLight9_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.10.04-13.05.07:239][  5]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.10.04-13.05.07:891][  5]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.10.04-13.05.07:891][  5]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.10.04-13.05.07:891][  5]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.10.04-13.05.07:941][  5]Lightmass on 2016-KISER-06: 21.2 sec total, 280 ms importing, 12 ms setup, 2.41 sec photons, 18.5 sec processing, 0 ms extra exporting [2677/2677 mappings]. Threads: 2:09 min total, 1:09 min processing.
+[2016.10.04-13.05.08:120][  5]LogStaticLightingSystem: Illumination: 31.2 sec (1.27 sec encoding lightmaps, 654 ms encoding shadowmaps)
+[2016.10.04-13.05.08:120][  5]LogStaticLightingSystem: Lightmap texture memory:  8.7 MB (0.7 MB streaming, 8.0 MB non-streaming), 10 textures
+[2016.10.04-13.05.08:120][  5]LogStaticLightingSystem: Shadowmap texture memory: 14.0 MB (0.7 MB streaming, 13.3 MB non-streaming), 3 textures
+[2016.10.04-13.05.08:686][  6]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.04-13.05.08:686][  6]MapCheck: New page: ThirdPersonExampleMap - Oct 4, 2016, 4:05:08 AM
+[2016.10.04-13.05.08:742][  6]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.403ms to complete.
+[2016.10.04-13.06.00:297][444]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.04-13.06.00:372][444]LogBlueprint:Warning: Compiler Warning [3830.57] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 76 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.06.00:372][444]LogBlueprint:Warning: Compiler Warning [3830.57] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.06.00:372][444]LogBlueprint:Warning: Compiler Warning [3830.57] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.06.00:372][444]LogBlueprint:Warning: Compiler Warning [3830.57] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.06.00:372][444]LogBlueprint:Warning: Compiler Warning [3830.57] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.06.00:372][444]LogBlueprint:Warning: Compiler Warning [3830.57] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.04-13.06.01:852][444]LogSavePackage: Save=1558.23ms
+[2016.10.04-13.06.01:852][444]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap734F2A2E47A211811684CFA4C3472B61.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.04-13.06.01:852][444]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap734F2A2E47A211811684CFA4C3472B61.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.04-13.06.02:352][444]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap734F2A2E47A211811684CFA4C3472B61.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[201
