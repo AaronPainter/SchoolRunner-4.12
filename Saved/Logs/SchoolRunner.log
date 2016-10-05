@@ -930,4 +930,727 @@ LogInit: Object subsystem initialized
 [2016.10.05-12.52.17:502][131]LogEditorTransaction: Undo Move Actors
 [2016.10.05-12.53.07:295][541]LogEditorViewport: Clicking on Actor (LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex58)
 [2016.10.05-12.53.09:386][784]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text115)
-[2016.10.05-12.53.10:242][876]LogEditorViewpor
+[2016.10.05-12.53.10:242][876]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text116)
+[2016.10.05-12.53.17:312][595]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint6)
+[2016.10.05-12.53.30:169][ 29]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.05-12.53.35:564][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame6)
+[2016.10.05-12.56.42:217][315]LogActorFactory: Actor Factory created SM_DoorFrame
+[2016.10.05-12.56.45:058][529]LogActorFactory: Actor Factory created SM_DoorFrame
+[2016.10.05-12.57.08:631][912]Cmd: DELETE
+[2016.10.05-12.57.08:631][912]Cmd: ACTOR DELETE
+[2016.10.05-12.57.08:637][912]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.05-12.57.08:661][912]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2016.10.05-13.04.11:221][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.04.11:221][899]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.04.11:221][899]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.04.11:226][899]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.04.11:358][899]LogBlueprint:Warning: Compiler Warning [3578.41] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 134 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.11:358][899]LogBlueprint:Warning: Compiler Warning [3578.41] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.11:358][899]LogBlueprint:Warning: Compiler Warning [3578.41] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.11:358][899]LogBlueprint:Warning: Compiler Warning [3578.41] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.11:359][899]LogBlueprint:Warning: Compiler Warning [3578.41] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.11:359][899]LogBlueprint:Warning: Compiler Warning [3578.41] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.11:359][899]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (1 blueprints)
+[2016.10.05-13.04.11:390][899]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.04.12:453][899]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:04:12 AM)
+[2016.10.05-13.04.12:453][899]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.04.12:627][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.174051s)
+[2016.10.05-13.04.12:628][899]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.04.12:628][899]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2016.10.05-13.04.12:628][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.175229s)
+[2016.10.05-13.04.12:647][899]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.04.12:653][899]LogInit: FAudioDevice initialized.
+[2016.10.05-13.04.12:699][899]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.04.12:770][899]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.04.12
+[2016.10.05-13.04.12:786][899]LogWorld: Bringing up level for play took: 0.084915
+[2016.10.05-13.04.12:788][899]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.164
+[2016.10.05-13.04.12:789][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.04.24:424][818]LogBlueprintUserMessages: [BP_Pickup_Child_Hex23] Destination Reached
+[2016.10.05-13.04.53:632][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.04.53:675][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.05.13:521][595]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text45)
+[2016.10.05-13.05.15:416][802]LogEditorViewport: Clicking on Actor (LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text45)
+[2016.10.05-13.05.16:750][952]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex23)
+[2016.10.05-13.05.17:356][ 20]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text46)
+[2016.10.05-13.05.20:670][400]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text47)
+[2016.10.05-13.05.21:617][511]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex24)
+[2016.10.05-13.05.22:720][641]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text48)
+[2016.10.05-13.06.24:279][433]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint2)
+[2016.10.05-13.07.04:509][913]BlueprintLog: New page: Compile DoorBluePrint
+[2016.10.05-13.07.04:605][913]BlueprintEditorCompileResults: Info [3751.65] Compile of DoorBluePrint successful! [in 96 ms] (/Game/Blueprints/DoorBluePrint.DoorBluePrint)
+[2016.10.05-13.07.18:043][110]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.07.18:043][110]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.07.18:043][110]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.07.18:048][110]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.07.18:166][110]LogBlueprint:Warning: Compiler Warning [3765.21] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 120 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.07.18:167][110]LogBlueprint:Warning: Compiler Warning [3765.21] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.07.18:167][110]LogBlueprint:Warning: Compiler Warning [3765.21] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.07.18:167][110]LogBlueprint:Warning: Compiler Warning [3765.21] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.07.18:167][110]LogBlueprint:Warning: Compiler Warning [3765.21] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.07.18:167][110]LogBlueprint:Warning: Compiler Warning [3765.21] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.07.18:167][110]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2016.10.05-13.07.18:182][110]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.07.19:484][110]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:07:19 AM)
+[2016.10.05-13.07.19:484][110]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.07.19:653][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.169395s)
+[2016.10.05-13.07.19:654][110]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.07.19:654][110]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2016.10.05-13.07.19:655][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.170738s)
+[2016.10.05-13.07.19:674][110]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.07.19:680][110]LogInit: FAudioDevice initialized.
+[2016.10.05-13.07.19:722][110]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.07.19:792][110]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.07.19
+[2016.10.05-13.07.19:809][110]LogWorld: Bringing up level for play took: 0.085198
+[2016.10.05-13.07.19:811][110]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.174
+[2016.10.05-13.07.19:811][110]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.07.27:371][696]LogBlueprintUserMessages: [BP_Pickup_Child_Hex2] Destination Reached
+[2016.10.05-13.07.38:176][605]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.07.38:225][605]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.07.40:324][810]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint)
+[2016.10.05-13.07.46:586][493]Cmd: DELETE
+[2016.10.05-13.07.46:586][493]Cmd: ACTOR DELETE
+[2016.10.05-13.07.46:592][493]LogEditorActor: Deleted Actor: DoorBluePrint_C
+[2016.10.05-13.07.46:608][493]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.10.05-13.07.48:087][669]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint2)
+[2016.10.05-13.08.08:137][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame2)
+[2016.10.05-13.08.09:358][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2016.10.05-13.08.10:426][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame2)
+[2016.10.05-13.08.11:232][  2]LogHttp:Warning: Timeout processing Http request. 00000000297B8280
+[2016.10.05-13.08.11:344][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2016.10.05-13.08.27:360][618]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint2)
+[2016.10.05-13.08.29:805][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame2)
+[2016.10.05-13.08.30:809][ 16]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint8)
+[2016.10.05-13.08.32:174][174]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint2)
+[2016.10.05-13.08.33:633][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame2)
+[2016.10.05-13.08.35:823][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2016.10.05-13.08.58:644][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.08.58:644][211]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.08.58:645][211]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.08.58:650][211]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.08.58:770][211]LogBlueprint:Warning: Compiler Warning [3865.81] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 122 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.08.58:770][211]LogBlueprint:Warning: Compiler Warning [3865.81] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.08.58:770][211]LogBlueprint:Warning: Compiler Warning [3865.81] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.08.58:770][211]LogBlueprint:Warning: Compiler Warning [3865.81] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.08.58:771][211]LogBlueprint:Warning: Compiler Warning [3865.81] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.08.58:771][211]LogBlueprint:Warning: Compiler Warning [3865.81] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.08.58:771][211]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (1 blueprints)
+[2016.10.05-13.08.58:788][211]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.08.59:894][211]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:08:59 AM)
+[2016.10.05-13.08.59:894][211]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.09.00:092][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.197916s)
+[2016.10.05-13.09.00:093][211]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.09.00:093][211]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2016.10.05-13.09.00:094][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.199263s)
+[2016.10.05-13.09.00:113][211]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.09.00:118][211]LogInit: FAudioDevice initialized.
+[2016.10.05-13.09.00:163][211]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.09.00:230][211]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.09.00
+[2016.10.05-13.09.00:246][211]LogWorld: Bringing up level for play took: 0.081606
+[2016.10.05-13.09.00:248][211]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.605
+[2016.10.05-13.09.00:249][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.09.08:458][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.09.08:514][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.09.11:634][215]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint8)
+[2016.10.05-13.09.15:680][692]EditorErrors: New page: Actor attachment
+[2016.10.05-13.09.20:289][239]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.09.20:289][239]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.09.20:289][239]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.09.20:294][239]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.09.20:411][239]LogBlueprint:Warning: Compiler Warning [3887.45] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 119 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.09.20:411][239]LogBlueprint:Warning: Compiler Warning [3887.45] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.09.20:411][239]LogBlueprint:Warning: Compiler Warning [3887.45] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.09.20:411][239]LogBlueprint:Warning: Compiler Warning [3887.45] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.09.20:412][239]LogBlueprint:Warning: Compiler Warning [3887.45] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.09.20:412][239]LogBlueprint:Warning: Compiler Warning [3887.45] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.09.20:412][239]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (1 blueprints)
+[2016.10.05-13.09.20:428][239]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.09.21:440][239]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:09:21 AM)
+[2016.10.05-13.09.21:440][239]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.09.21:608][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.167921s)
+[2016.10.05-13.09.21:608][239]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.09.21:608][239]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2016.10.05-13.09.21:609][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.169154s)
+[2016.10.05-13.09.21:626][239]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.09.21:632][239]LogInit: FAudioDevice initialized.
+[2016.10.05-13.09.21:677][239]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.09.21:748][239]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.09.21
+[2016.10.05-13.09.21:764][239]LogWorld: Bringing up level for play took: 0.085339
+[2016.10.05-13.09.21:767][239]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.121
+[2016.10.05-13.09.21:767][239]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.09.27:076][637]LogBlueprintUserMessages: [BP_Pickup_Child_Hex_155] Destination Reached
+[2016.10.05-13.09.33:345][153]LogBlueprintUserMessages: [BP_Pickup_Child_Hex2] Destination Reached
+[2016.10.05-13.10.01:767][533]LogBlueprintUserMessages: [BP_Pickup_Child_Hex23] Destination Reached
+[2016.10.05-13.10.12:307][482]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.10.12:357][482]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.10.16:830][994]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint7)
+[2016.10.05-13.10.31:280][477]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.10.05-13.10.36:748][ 88]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.10.36:748][ 88]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.10.36:748][ 88]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.10.36:753][ 88]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.10.36:869][ 88]LogBlueprint:Warning: Compiler Warning [3963.90] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 118 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.36:869][ 88]LogBlueprint:Warning: Compiler Warning [3963.90] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.36:869][ 88]LogBlueprint:Warning: Compiler Warning [3963.90] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.36:869][ 88]LogBlueprint:Warning: Compiler Warning [3963.90] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.36:870][ 88]LogBlueprint:Warning: Compiler Warning [3963.90] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.36:870][ 88]LogBlueprint:Warning: Compiler Warning [3963.90] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.36:870][ 88]LogPlayLevel: PlayLevel: Blueprint regeneration took 122 ms (1 blueprints)
+[2016.10.05-13.10.36:887][ 88]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.10.38:425][ 88]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:10:38 AM)
+[2016.10.05-13.10.38:425][ 88]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.10.38:595][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.169005s)
+[2016.10.05-13.10.38:595][ 88]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.10.38:595][ 88]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2016.10.05-13.10.38:596][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.170235s)
+[2016.10.05-13.10.38:640][ 88]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.10.38:647][ 88]LogInit: FAudioDevice initialized.
+[2016.10.05-13.10.38:692][ 88]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.10.38:764][ 88]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.10.38
+[2016.10.05-13.10.38:781][ 88]LogWorld: Bringing up level for play took: 0.087491
+[2016.10.05-13.10.38:783][ 88]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.133
+[2016.10.05-13.10.38:784][ 88]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.10.43:442][413]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.10.43:592][413]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.10.53:220][533]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.05-13.10.53:354][533]BlueprintEditorCompileResults: Info [3980.38] Compile of ThirdPersonCharacter successful! [in 133 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.10.05-13.10.55:369][759]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.10.55:369][759]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.10.55:369][759]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.10.55:373][759]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.10.55:492][759]LogBlueprint:Warning: Compiler Warning [3982.52] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 120 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.55:492][759]LogBlueprint:Warning: Compiler Warning [3982.52] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.55:492][759]LogBlueprint:Warning: Compiler Warning [3982.52] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.55:492][759]LogBlueprint:Warning: Compiler Warning [3982.52] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.55:493][759]LogBlueprint:Warning: Compiler Warning [3982.52] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.55:493][759]LogBlueprint:Warning: Compiler Warning [3982.52] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.10.55:493][759]LogPlayLevel: PlayLevel: Blueprint regeneration took 124 ms (1 blueprints)
+[2016.10.05-13.10.55:508][759]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.10.56:829][759]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:10:56 AM)
+[2016.10.05-13.10.56:829][759]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.10.57:000][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170732s)
+[2016.10.05-13.10.57:001][759]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.10.57:001][759]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2016.10.05-13.10.57:001][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.171893s)
+[2016.10.05-13.10.57:046][759]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.10.57:051][759]LogInit: FAudioDevice initialized.
+[2016.10.05-13.10.57:091][759]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.10.57:163][759]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.10.57
+[2016.10.05-13.10.57:179][759]LogWorld: Bringing up level for play took: 0.086738
+[2016.10.05-13.10.57:181][759]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.529
+[2016.10.05-13.10.57:181][759]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.11.04:541][328]LogHttp:Warning: Timeout processing Http request. 000000004DC61780
+[2016.10.05-13.11.06:575][472]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.11.06:726][472]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.11.31:030][340]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.05-13.11.31:165][340]BlueprintEditorCompileResults: Info [4018.19] Compile of ThirdPersonCharacter successful! [in 134 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.10.05-13.11.37:203][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.11.37:203][957]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.11.37:204][957]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.11.37:208][957]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.11.37:325][957]LogBlueprint:Warning: Compiler Warning [4024.35] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 119 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.11.37:326][957]LogBlueprint:Warning: Compiler Warning [4024.35] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.11.37:326][957]LogBlueprint:Warning: Compiler Warning [4024.35] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.11.37:326][957]LogBlueprint:Warning: Compiler Warning [4024.35] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.11.37:326][957]LogBlueprint:Warning: Compiler Warning [4024.35] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.11.37:326][957]LogBlueprint:Warning: Compiler Warning [4024.35] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.11.37:326][957]LogPlayLevel: PlayLevel: Blueprint regeneration took 122 ms (1 blueprints)
+[2016.10.05-13.11.37:342][957]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.11.38:763][957]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:11:38 AM)
+[2016.10.05-13.11.38:763][957]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.11.38:933][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170028s)
+[2016.10.05-13.11.38:933][957]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.11.38:934][957]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2016.10.05-13.11.38:934][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.171261s)
+[2016.10.05-13.11.38:977][957]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.11.38:984][957]LogInit: FAudioDevice initialized.
+[2016.10.05-13.11.39:029][957]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.11.39:105][957]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.11.39
+[2016.10.05-13.11.39:122][957]LogWorld: Bringing up level for play took: 0.092161
+[2016.10.05-13.11.39:125][957]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.47
+[2016.10.05-13.11.39:125][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.11.41:323][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.11.41:472][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.12.27:260][531]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.05-13.12.27:395][531]BlueprintEditorCompileResults: Info [4074.42] Compile of ThirdPersonCharacter successful! [in 134 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.10.05-13.12.48:436][687]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.10.05-13.12.58:692][908]LogHttp:Warning: Timeout processing Http request. 000000008BAD8700
+[2016.10.05-13.14.36:772][706]LogHttp:Warning: Timeout processing Http request. 000000009F862C80
+[2016.10.05-13.14.48:383][908]LogActorFactory: Actor Factory created SM_DoorFrame
+[2016.10.05-13.14.50:699][ 75]LogActorFactory: Actor Factory created SM_DoorFrame
+[2016.10.05-13.15.38:813][587]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint7)
+[2016.10.05-13.16.00:950][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame9)
+[2016.10.05-13.16.53:180][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame9)
+[2016.10.05-13.16.55:427][105]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint7)
+[2016.10.05-13.16.57:634][358]EditorErrors: New page: Actor attachment
+[2016.10.05-13.17.10:978][844]LogEditorViewport: Clicking on Actor (CTRL LMB): DoorBluePrint_C (DoorBluePrint7)
+[2016.10.05-13.17.12:099][974]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame9)
+[2016.10.05-13.18.09:904][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.18.09:904][709]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.18.09:905][709]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.18.09:911][709]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.18.10:036][709]LogBlueprint:Warning: Compiler Warning [4417.03] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 128 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.18.10:036][709]LogBlueprint:Warning: Compiler Warning [4417.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.18.10:036][709]LogBlueprint:Warning: Compiler Warning [4417.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.18.10:037][709]LogBlueprint:Warning: Compiler Warning [4417.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.18.10:037][709]LogBlueprint:Warning: Compiler Warning [4417.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.18.10:037][709]LogBlueprint:Warning: Compiler Warning [4417.04] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.18.10:037][709]LogPlayLevel: PlayLevel: Blueprint regeneration took 132 ms (1 blueprints)
+[2016.10.05-13.18.10:062][709]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.18.11:447][709]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:18:11 AM)
+[2016.10.05-13.18.11:447][709]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.18.11:644][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.196873s)
+[2016.10.05-13.18.11:645][709]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.18.11:645][709]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2016.10.05-13.18.11:646][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.198355s)
+[2016.10.05-13.18.11:665][709]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.18.11:674][709]LogInit: FAudioDevice initialized.
+[2016.10.05-13.18.11:737][709]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.18.11:815][709]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.18.11
+[2016.10.05-13.18.11:831][709]LogWorld: Bringing up level for play took: 0.092046
+[2016.10.05-13.18.11:833][709]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.152
+[2016.10.05-13.18.11:834][709]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.18.16:573][ 81]LogBlueprintUserMessages: [BP_Pickup_Child_Hex_155] Destination Reached
+[2016.10.05-13.18.21:306][483]LogBlueprintUserMessages: [BP_Pickup_Child_Hex2] Destination Reached
+[2016.10.05-13.18.36:671][765]LogBlueprintUserMessages: [BP_Pickup_Child_Hex23] Destination Reached
+[2016.10.05-13.18.43:716][361]LogBlueprintUserMessages: [BP_Pickup_Child_Hex24] Destination Reached
+[2016.10.05-13.19.15:248][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.19.15:295][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.19.29:601][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.19.29:601][771]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.19.29:602][771]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.19.29:606][771]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.19.29:724][771]LogBlueprint:Warning: Compiler Warning [4496.72] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 119 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.19.29:724][771]LogBlueprint:Warning: Compiler Warning [4496.72] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.19.29:724][771]LogBlueprint:Warning: Compiler Warning [4496.72] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.19.29:724][771]LogBlueprint:Warning: Compiler Warning [4496.72] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.19.29:725][771]LogBlueprint:Warning: Compiler Warning [4496.72] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.19.29:725][771]LogBlueprint:Warning: Compiler Warning [4496.72] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.19.29:725][771]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (1 blueprints)
+[2016.10.05-13.19.29:741][771]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.19.30:835][771]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:19:30 AM)
+[2016.10.05-13.19.30:836][771]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.19.31:045][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.209029s)
+[2016.10.05-13.19.31:045][771]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.19.31:046][771]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2016.10.05-13.19.31:046][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.210499s)
+[2016.10.05-13.19.31:064][771]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.19.31:073][771]LogInit: FAudioDevice initialized.
+[2016.10.05-13.19.31:118][771]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.19.31:187][771]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.19.31
+[2016.10.05-13.19.31:203][771]LogWorld: Bringing up level for play took: 0.083088
+[2016.10.05-13.19.31:205][771]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.519
+[2016.10.05-13.19.31:206][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.19.43:945][670]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.19.43:997][670]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.20.59:222][610]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.10.05-13.20.59:345][610]BlueprintEditorCompileResults: Info [4586.33] Compile of ThirdPersonCharacter successful! [in 122 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.10.05-13.20.59:865][661]LogSavePackage: Save=44.75ms
+[2016.10.05-13.20.59:865][661]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonCharacterC87D6FB343D3C016F45A14A25A755B1D.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.10.05-13.20.59:867][661]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.10.05-13.21.00:828][775]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.21.00:828][775]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.05-13.21.00:829][775]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.05-13.21.00:835][775]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.21.00:955][775]LogBlueprint:Warning: Compiler Warning [4587.94] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 123 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.21.00:955][775]LogBlueprint:Warning: Compiler Warning [4587.94] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.21.00:956][775]LogBlueprint:Warning: Compiler Warning [4587.94] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.21.00:956][775]LogBlueprint:Warning: Compiler Warning [4587.94] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.21.00:956][775]LogBlueprint:Warning: Compiler Warning [4587.94] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.21.00:956][775]LogBlueprint:Warning: Compiler Warning [4587.94] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.21.00:956][775]LogPlayLevel: PlayLevel: Blueprint regeneration took 128 ms (1 blueprints)
+[2016.10.05-13.21.00:972][775]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.05-13.21.02:046][775]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 5, 2016, 4:21:02 AM)
+[2016.10.05-13.21.02:047][775]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.05-13.21.02:216][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.169254s)
+[2016.10.05-13.21.02:217][775]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.21.02:217][775]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2016.10.05-13.21.02:217][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.170672s)
+[2016.10.05-13.21.02:237][775]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.21.02:243][775]LogInit: FAudioDevice initialized.
+[2016.10.05-13.21.02:280][775]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.05-13.21.02:356][775]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.05-09.21.02
+[2016.10.05-13.21.02:373][775]LogWorld: Bringing up level for play took: 0.091321
+[2016.10.05-13.21.02:373][775]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.05-13.21.02:401][775]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.709
+[2016.10.05-13.21.02:402][775]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.21.55:649][418]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.21.55:716][418]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.05-13.22.04:869][440]MapCheck: New page: Map Check
+[2016.10.05-13.22.04:883][440]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.05-13.22.04:885][440]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.05-13.22.10:777][440]LightingResults: New page: Lighting Build - Oct 5, 2016, 4:22:10 AM
+[2016.10.05-13.22.10:948][440]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.05-13.22.10:948][440]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.05-13.22.10:948][440]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.05-13.22.10:949][440]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.05-13.22.10:949][440]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2064
+[2016.10.05-13.22.15:497][440]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.05-13.22.15:497][440]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.05-13.22.15:497][440]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.05-13.22.15:497][440]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.05-13.22.15:497][440]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.05-13.22.15:797][440]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.10.05-13.22.15:797][440]MapCheck: New page: ThirdPersonExampleMap - Oct 5, 2016, 4:22:15 AM
+[2016.10.05-13.22.15:799][440]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.10.05-13.22.15:831][440]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 33.829ms to complete.
+[2016.10.05-13.22.15:851][440]LogEditorBuildUtils: Build time 0:10
+[2016.10.05-13.22.29:914][ 55]LightingResults:Warning: Warning Door Object has overlapping UVs.
+[2016.10.05-13.22.29:915][ 55]LightingResults: Info Door Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.05-13.22.29:939][ 58]LightingResults:Warning: Warning Door Object has overlapping UVs.
+[2016.10.05-13.22.29:948][ 59]LightingResults: Info Door Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.05-13.22.31:584][255]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2016.10.05-13.22.31:584][255]LightingResults: Info <None> Lightmap UV are overlapping by 9.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.05-13.22.33:582][494]Job is a success!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight11_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight19 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight10_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight18 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight16_7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:641][495]LightingResults:Error: Error PointLight6_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.36:642][495]LightingResults:Error: Error PointLight9_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.10.05-13.22.38:106][495]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.10.05-13.22.38:729][495]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2016.10.05-13.22.38:730][495]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2016.10.05-13.22.38:730][495]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2016.10.05-13.22.38:758][495]Lightmass on 2016-KISER-06: 22.3 sec total, 268 ms importing, 17 ms setup, 2.46 sec photons, 19.6 sec processing, 0 ms extra exporting [2694/2694 mappings]. Threads: 2:17 min total, 1:17 min processing.
+[2016.10.05-13.22.38:935][495]LogStaticLightingSystem: Illumination: 28.1 sec (1.45 sec encoding lightmaps, 625 ms encoding shadowmaps)
+[2016.10.05-13.22.38:935][495]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (2.7 MB streaming, 8.0 MB non-streaming), 10 textures
+[2016.10.05-13.22.38:935][495]LogStaticLightingSystem: Shadowmap texture memory: 14.0 MB (0.7 MB streaming, 13.3 MB non-streaming), 3 textures
+[2016.10.05-13.22.39:464][496]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.05-13.22.39:464][496]MapCheck: New page: ThirdPersonExampleMap - Oct 5, 2016, 4:22:39 AM
+[2016.10.05-13.22.39:528][496]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.695ms to complete.
+[2016.10.05-13.23.44:742][481]LogActorFactory: Actor Factory created Door
+[2016.10.05-13.23.46:461][685]LogActorFactory: Actor Factory created Door
+[2016.10.05-13.24.19:681][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door4)
+[2016.10.05-13.24.59:261][ 38]LogHttp:Warning: Timeout processing Http request. 00000000BB443880
+[2016.10.05-13.27.20:529][113]Cmd: SELECT NONE
+[2016.10.05-13.28.39:993][768]LogHttp:Warning: Timeout processing Http request. 000000002AE33580
+[2016.10.05-13.30.12:718][417]Cmd: DELETE
+[2016.10.05-13.30.12:718][417]Cmd: ACTOR DELETE
+[2016.10.05-13.30.12:728][417]LogEditorActor: Deleted Actor: Brush
+[2016.10.05-13.30.13:491][417]LogEditorActor: Deleted 1 Actors (0.773 secs)
+[2016.10.05-13.30.32:614][561]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.10.05-13.30.46:927][705]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.05-13.30.51:283][198]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.05-13.31.10:389][261]LogEditorViewport: Clicking Background
+[2016.10.05-13.32.05:711][689]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.10.05-13.32.05:711][689]LogGeometryMode:Warning: Unable to resolve BoxBrush97_4 Brush in new BSP, see above
+[2016.10.05-13.32.05:711][689]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.10.05-13.32.38:300][411]LogGeometryMode:Warning: Unable to find BoxBrush95 Brush(s) in new BSP
+[2016.10.05-13.32.38:300][411]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.10.05-13.32.41:097][711]LogGeometryMode:Warning: Unable to find BoxBrush97_4 Brush(s) in new BSP
+[2016.10.05-13.32.41:097][711]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.10.05-13.34.20:893][742]Cmd: TRANSACTION UNDO
+[2016.10.05-13.34.20:893][742]LogEditorTransaction: Undo Move Actors
+[2016.10.05-13.34.20:980][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush191.BrushComponent0) Component already registered.
+[2016.10.05-13.34.20:982][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush142_23.BrushComponent0) Component already registered.
+[2016.10.05-13.34.20:989][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush208.BrushComponent0) Component already registered.
+[2016.10.05-13.34.20:990][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush195_16.BrushComponent0) Component already registered.
+[2016.10.05-13.34.20:993][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush41.BrushComponent0) Component already registered.
+[2016.10.05-13.34.21:032][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4886' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:033][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4887' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:034][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4888' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:034][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4889' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:034][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4890' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:035][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4891' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:035][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4892' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:036][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4893' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:036][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4894' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:036][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4895' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:036][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4896' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:037][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4897' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:037][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4898' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:037][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4899' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:037][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4900' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:037][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4901' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:038][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4902' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:038][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4903' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:038][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4904' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:038][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4905' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:038][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4906' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:039][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4907' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:039][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4908' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:039][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4909' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:040][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4910' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:040][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4911' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:040][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4912' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:040][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4913' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:041][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4914' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:041][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4915' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:041][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4916' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:041][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4917' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:041][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4918' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:042][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4919' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:042][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4920' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:042][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4921' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:042][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4922' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:043][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4923' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:043][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4924' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:043][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4925' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:043][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4926' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:043][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4927' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:044][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4928' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:044][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4929' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:044][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4930' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:044][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4931' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:044][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4932' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:045][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4933' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:045][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4934' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:045][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4935' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:045][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4936' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:046][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4937' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:046][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4938' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:046][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4939' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:046][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4940' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:046][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4941' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:047][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4942' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:047][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4943' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:047][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4944' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:047][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4945' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:047][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4946' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:048][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4947' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:048][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4948' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:048][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4949' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:048][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4950' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:048][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4951' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:049][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4952' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:049][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4953' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:049][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4954' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:049][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4955' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:050][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4956' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:050][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4957' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:050][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4958' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:050][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4959' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:051][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4960' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:051][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4961' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:051][742]LogPhysics:Warning: FDerivedDataPhysXCooker::BuildTriMesh: Triangle data from '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ModelComponent_4962' invalid (52702 verts, 0 indices).
+[2016.10.05-13.34.21:052][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2016.10.05-13.34.21:058][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush2.BrushComponent0) Component already registered.
+[2016.10.05-13.34.21:059][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush265.BrushComponent0) Component already registered.
+[2016.10.05-13.34.21:063][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush435.BrushComponent0) Component already registered.
+[2016.10.05-13.34.21:071][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush312_7.BrushComponent0) Component already registered.
+[2016.10.05-13.34.21:072][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush304.BrushComponent0) Component already registered.
+[2016.10.05-13.34.21:078][742]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush391.BrushComponent0) Component already registered.
+[2016.10.05-13.34.21:193][742]LogGeometryMode:Warning: Unable to find 1 Vertex(s) in new BSP
+[2016.10.05-13.34.21:193][742]LogGeometryMode:Warning: Unable to resolve BoxBrush97_4 Brush in new BSP, see above
+[2016.10.05-13.34.21:193][742]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.10.05-13.34.57:012][620]Cmd: SELECT NONE
+[2016.10.05-13.35.11:803][928]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.35.11:926][928]LogBlueprint:Warning: Compiler Warning [5438.86] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 125 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.35.11:926][928]LogBlueprint:Warning: Compiler Warning [5438.86] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.35.11:926][928]LogBlueprint:Warning: Compiler Warning [5438.86] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.35.11:926][928]LogBlueprint:Warning: Compiler Warning [5438.86] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.35.11:927][928]LogBlueprint:Warning: Compiler Warning [5438.86] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.35.11:927][928]LogBlueprint:Warning: Compiler Warning [5438.86] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.35.13:163][928]LogSavePackage: Save=1364.08ms
+[2016.10.05-13.35.13:163][928]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapE550CAEF45FA61350A7109ACB1A273C0.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.05-13.35.13:169][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.05-13.35.22:118][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DoorBluePrint" FILE="../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Blueprints/DoorBluePrint.uasset" SILENT=true
+[2016.10.05-13.35.22:146][587]LogSavePackage: Save=24.93ms
+[2016.10.05-13.35.22:146][587]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/DoorBluePrint1B2229F74AD5FC7AE6037B86F9848712.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Blueprints/DoorBluePrint.uasset'
+[2016.10.05-13.35.22:147][587]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/Blueprints/DoorBluePrint.uasset
+[2016.10.05-13.35.22:256][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.05-13.35.22:475][588]Cmd: QUIT_EDITOR
+[2016.10.05-13.35.22:547][588]LogExit: Preparing to exit.
+[2016.10.05-13.35.22:922][588]LogExit: Editor shut down
+[2016.10.05-13.35.22:922][588]LogExit: Transaction tracking system shut down
+[2016.10.05-13.35.23:039][588]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.05-13.35.23:039][588]LogExit: Object subsystem successfully closed.
+[2016.10.05-13.35.23:059][588]LogD3D11RHI: Shutdown
+[2016.10.05-13.35.23:059][588]LogD3D11RHI: CleanupD3DDevice
+[2016.10.05-13.35.23:166][588]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.05-13.35.23:173][588]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (216)
+[2016.10.05-13.35.23:173][588]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.05-13.35.23:173][588]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.10.05-13.35.23:173][588]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.05-13.35.23:173][588]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.05-13.35.23:173][588]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.05-13.35.23:173][588]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.05-13.35.23:173][588]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.05-13.35.23:175][588]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.05-13.35.23:176][588]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.05-13.35.23:378][588]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.05-13.35.23:379][588]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.05-13.35.23:379][588]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.05-13.35.23:379][588]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.05-13.35.23:379][588]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.05-13.35.23:379][588]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.05-13.35.23:379][588]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.05-13.35.23:379][588]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.05-13.35.23:429][588]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.05-13.35.23:592][588]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.05-13.35.23:593][588]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.05-13.35.23:594][588]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.05-13.35.23:594][588]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.05-13.35.23:594][588]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.05-13.35.23:694][588]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.05-13.35.23:696][588]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.05-13.35.23:696][588]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.05-13.35.23:696][588]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.05-13.35.23:696][588]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.05-13.35.23:696][588]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.05-13.35.23:696][588]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.05-13.35.23:696][588]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.05-13.35.23:887][588]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.05-13.35.23:887][588]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.05-13.35.23:887][588]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.05-13.35.23:887][588]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.05-13.35.23:929][588]LogDerivedDataCache: Shutdown
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.05-13.35.23:929][588]LogModuleManager: Shutting d
