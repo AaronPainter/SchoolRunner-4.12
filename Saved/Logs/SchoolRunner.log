@@ -1976,4 +1976,510 @@ Script call stack:
 [2016.10.06-12.29.57:083][842]LogTexture:Display: Building textures: T_Burst_M (AutoDXT)
 [2016.10.06-12.29.57:243][842]LogTexture:Display: Building textures: T_Explosion_SubUV (AutoDXT)
 [2016.10.06-12.29.57:919][842]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
-[2016.10.06-12.30.02:039][252]C
+[2016.10.06-12.30.02:039][252]Cmd: DELETE
+[2016.10.06-12.30.02:039][252]Cmd: ACTOR DELETE
+[2016.10.06-12.30.02:045][252]LogEditorActor: Deleted Actor: Emitter
+[2016.10.06-12.30.02:062][252]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.10.06-12.30.17:191][892]Cmd: DELETE
+[2016.10.06-12.30.17:191][892]Cmd: ACTOR DELETE
+[2016.10.06-12.30.17:197][892]LogEditorActor: Deleted Actor: Emitter
+[2016.10.06-12.30.17:212][892]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.06-12.30.46:101][560]Cmd: TRANSACTION UNDO
+[2016.10.06-12.30.46:101][560]LogEditorTransaction: Undo Marquee Select
+[2016.10.06-12.30.54:456][309]LogUObjectHash:Warning: Ambiguous search, could be Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial or Material /Game/OtherUnrealStuff/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2016.10.06-12.31.40:353][296]Cmd: TRANSACTION UNDO
+[2016.10.06-12.31.40:353][296]LogEditorTransaction: Undo Set actor scale
+[2016.10.06-12.31.40:469][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush361.BrushComponent0) Component already registered.
+[2016.10.06-12.31.40:522][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush147_30.BrushComponent0) Component already registered.
+[2016.10.06-12.31.40:523][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush135.BrushComponent0) Component already registered.
+[2016.10.06-12.31.40:524][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush153.BrushComponent0) Component already registered.
+[2016.10.06-12.31.40:527][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush367.BrushComponent0) Component already registered.
+[2016.10.06-12.31.40:528][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush123.BrushComponent0) Component already registered.
+[2016.10.06-12.31.40:534][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush387.BrushComponent0) Component already registered.
+[2016.10.06-12.31.40:535][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush374.BrushComponent0) Component already registered.
+[2016.10.06-12.31.40:536][296]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush394.BrushComponent0) Component already registered.
+[2016.10.06-12.35.23:067][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door4)
+[2016.10.06-12.36.11:465][425]LogActorFactory: Actor Factory created SM_DoorFrame
+[2016.10.06-12.36.12:606][475]LogActorFactory: Actor Factory created SM_DoorFrame
+[2016.10.06-12.36.19:199][ 87]LogHttp:Warning: Timeout processing Http request. 000000003063C580
+[2016.10.06-12.41.19:554][ 33]LogHttp:Warning: Timeout processing Http request. 000000003068D000
+[2016.10.06-12.42.08:776][707]Cmd: TRANSACTION UNDO
+[2016.10.06-12.42.08:776][707]LogEditorTransaction: Undo Move Actors
+[2016.10.06-12.45.46:512][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame18)
+[2016.10.06-12.46.35:978][777]LogUObjectHash:Warning: Ambiguous search, could be Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial or Material /Game/OtherUnrealStuff/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2016.10.06-12.46.35:978][777]LogUObjectHash:Warning: Ambiguous search, could be Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial or Material /Game/OtherUnrealStuff/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2016.10.06-12.46.53:057][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame22)
+[2016.10.06-12.47.10:505][606]Cmd: DELETE
+[2016.10.06-12.47.10:505][606]Cmd: ACTOR DELETE
+[2016.10.06-12.47.10:514][606]LogEditorActor: Deleted Actor: Brush
+[2016.10.06-12.47.11:340][606]LogEditorActor: Deleted 1 Actors (0.834 secs)
+[2016.10.06-12.47.49:680][605]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush369)
+[2016.10.06-12.47.55:630][308]Cmd: DELETE
+[2016.10.06-12.47.55:630][308]Cmd: ACTOR DELETE
+[2016.10.06-12.47.55:637][308]LogEditorActor: Deleted Actor: Brush
+[2016.10.06-12.47.56:433][308]LogEditorActor: Deleted 1 Actors (0.804 secs)
+[2016.10.06-12.48.27:025][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame22)
+[2016.10.06-12.48.47:401][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame22)
+[2016.10.06-12.49.10:317][600]Cmd: TRANSACTION UNDO
+[2016.10.06-12.49.10:317][600]LogEditorTransaction: Undo Set actor scale
+[2016.10.06-12.49.10:423][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush240.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:424][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush230.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:424][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush246.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:425][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush265.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:426][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush253.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:426][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush251_18.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:492][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:499][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush388.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:500][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush375.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:500][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LinearStairBrush12.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:501][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush409.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:502][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush402.BrushComponent0) Component already registered.
+[2016.10.06-12.49.10:502][600]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush414.BrushComponent0) Component already registered.
+[2016.10.06-12.49.19:842][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame22)
+[2016.10.06-12.50.33:760][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame22)
+[2016.10.06-12.50.59:194][290]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.10.06-12.51.04:998][804]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.06-12.51.19:259][315]LogHttp:Warning: Timeout processing Http request. 00000000309BE200
+[2016.10.06-12.54.00:078][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame22)
+[2016.10.06-12.56.05:441][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame24)
+[2016.10.06-12.57.04:740][965]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text25)
+[2016.10.06-12.57.05:389][ 35]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex13)
+[2016.10.06-12.57.06:749][191]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text26)
+[2016.10.06-12.57.11:713][674]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text27)
+[2016.10.06-12.57.12:604][774]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex14)
+[2016.10.06-12.57.13:640][892]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text28)
+[2016.10.06-12.57.17:847][350]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text29)
+[2016.10.06-12.57.18:693][448]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex15)
+[2016.10.06-12.57.19:513][543]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text30)
+[2016.10.06-12.57.27:298][429]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text31)
+[2016.10.06-12.57.27:882][493]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex16)
+[2016.10.06-12.57.28:555][568]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text32)
+[2016.10.06-12.57.42:600][893]Cmd: TRANSACTION UNDO
+[2016.10.06-12.57.42:600][893]LogEditorTransaction: Undo Move Actors
+[2016.10.06-12.57.58:282][570]LogEditorViewport: Clicking on Actor (LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text33)
+[2016.10.06-12.57.59:864][747]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex17)
+[2016.10.06-12.58.00:712][838]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text34)
+[2016.10.06-12.58.07:836][515]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text35)
+[2016.10.06-12.58.08:691][614]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex18)
+[2016.10.06-12.58.09:576][717]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text36)
+[2016.10.06-12.58.15:277][249]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex19)
+[2016.10.06-12.58.16:993][449]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text37)
+[2016.10.06-12.58.18:049][572]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text38)
+[2016.10.06-12.58.21:021][842]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text39)
+[2016.10.06-12.58.22:259][984]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex20)
+[2016.10.06-12.58.22:822][ 47]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text40)
+[2016.10.06-12.58.28:374][547]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text23)
+[2016.10.06-12.58.29:185][637]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_Child_Hex_C (BP_Pickup_Child_Hex12)
+[2016.10.06-12.58.30:153][748]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Pickup_No_Text_C (BP_Pickup_No_Text24)
+[2016.10.06-12.58.50:218][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame26)
+[2016.10.06-12.59.37:372][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door10)
+[2016.10.06-13.01.10:716][772]Cmd: DELETE
+[2016.10.06-13.01.10:716][772]Cmd: ACTOR DELETE
+[2016.10.06-13.01.10:723][772]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.10:787][772]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2016.10.06-13.01.14:740][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door9)
+[2016.10.06-13.01.15:601][228]Cmd: DELETE
+[2016.10.06-13.01.15:601][228]Cmd: ACTOR DELETE
+[2016.10.06-13.01.15:607][228]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.15:621][228]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.10.06-13.01.24:833][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door11)
+[2016.10.06-13.01.25:090][253]Cmd: DELETE
+[2016.10.06-13.01.25:090][253]Cmd: ACTOR DELETE
+[2016.10.06-13.01.25:096][253]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.25:110][253]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.10.06-13.01.27:606][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door4)
+[2016.10.06-13.01.27:862][578]Cmd: DELETE
+[2016.10.06-13.01.27:862][578]Cmd: ACTOR DELETE
+[2016.10.06-13.01.27:868][578]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.27:882][578]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.06-13.01.28:607][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door3)
+[2016.10.06-13.01.28:804][684]Cmd: DELETE
+[2016.10.06-13.01.28:804][684]Cmd: ACTOR DELETE
+[2016.10.06-13.01.28:811][684]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.28:826][684]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.10.06-13.01.30:272][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door5)
+[2016.10.06-13.01.30:495][879]Cmd: DELETE
+[2016.10.06-13.01.30:495][879]Cmd: ACTOR DELETE
+[2016.10.06-13.01.30:501][879]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.30:515][879]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.06-13.01.33:927][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door6)
+[2016.10.06-13.01.34:106][220]Cmd: DELETE
+[2016.10.06-13.01.34:106][220]Cmd: ACTOR DELETE
+[2016.10.06-13.01.34:112][220]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.34:127][220]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.06-13.01.36:754][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door7)
+[2016.10.06-13.01.36:976][472]Cmd: DELETE
+[2016.10.06-13.01.36:976][472]Cmd: ACTOR DELETE
+[2016.10.06-13.01.36:982][472]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.36:997][472]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.10.06-13.01.39:287][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door8)
+[2016.10.06-13.01.39:449][703]Cmd: DELETE
+[2016.10.06-13.01.39:449][703]Cmd: ACTOR DELETE
+[2016.10.06-13.01.39:455][703]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.01.39:470][703]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.06-13.01.46:257][220]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door10)
+[2016.10.06-13.02.59:168][701]Cmd: TRANSACTION UNDO
+[2016.10.06-13.02.59:168][701]LogEditorTransaction: Undo Rotate Actors
+[2016.10.06-13.04.19:301][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door13)
+[2016.10.06-13.05.07:759][ 67]Cmd: TRANSACTION UNDO
+[2016.10.06-13.05.07:759][ 67]LogEditorTransaction: Undo Move Actors
+[2016.10.06-13.06.19:333][620]LogHttp:Warning: Timeout processing Http request. 0000000030AC2080
+[2016.10.06-13.06.26:024][415]LogEditorViewport: Clicking on Actor (LMB): glass_C (glass13)
+[2016.10.06-13.08.24:130][165]LogEditorViewport: Clicking on Actor (LMB): glass_C (glass14)
+[2016.10.06-13.08.41:541][ 35]Cmd: DELETE
+[2016.10.06-13.08.41:541][ 35]Cmd: ACTOR DELETE
+[2016.10.06-13.08.41:549][ 35]LogEditorActor: Deleted Actor: glass_C
+[2016.10.06-13.08.41:574][ 35]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2016.10.06-13.08.43:177][227]LogEditorViewport: Clicking on Actor (LMB): glass_C (glass14)
+[2016.10.06-13.08.46:526][624]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Door14)
+[2016.10.06-13.10.20:895][845]Cmd: DELETE
+[2016.10.06-13.10.20:895][845]Cmd: ACTOR DELETE
+[2016.10.06-13.10.20:900][845]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.10.20:903][845]LogEditorActor: Deleted Actor: glass_C
+[2016.10.06-13.10.20:926][845]LogEditorActor: Deleted 2 Actors (0.031 secs)
+[2016.10.06-13.12.37:099][652]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.06-13.12.37:211][652]LogBlueprint:Warning: Compiler Warning [4224.17] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 114 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.12.37:212][652]LogBlueprint:Warning: Compiler Warning [4224.17] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.12.37:212][652]LogBlueprint:Warning: Compiler Warning [4224.17] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.12.37:212][652]LogBlueprint:Warning: Compiler Warning [4224.17] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.12.37:212][652]LogBlueprint:Warning: Compiler Warning [4224.17] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.12.37:212][652]LogBlueprint:Warning: Compiler Warning [4224.17] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.12.38:454][652]LogSavePackage: Save=1359.35ms
+[2016.10.06-13.12.38:454][652]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.12.38:455][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.38:955][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.39:455][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.39:955][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.40:455][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.40:955][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.41:455][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.41:955][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.42:455][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.42:955][652]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.12.43:455][652]LogFileManager:Error: Error moving file '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapD95CF6BE429EF360EDCA5DBF550BD6D4.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2016.10.06-13.12.43:455][652]LogSavePackage:Error: Error saving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.12.43:473][652]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.06-13.12.43:481][652]EditorErrors: New page: Save Output
+[2016.10.06-13.12.43:481][652]EditorErrors:Warning: Warning Error saving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.14.09:842][483]LogEditorViewport: Clicking on Actor (CTRL LMB): DoorBluePrint_C (DoorBluePrint)
+[2016.10.06-13.14.14:469][956]LogEditorViewport: Clicking on Actor (LMB): glass_C (glass18)
+[2016.10.06-13.14.17:980][354]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint)
+[2016.10.06-13.14.19:017][471]LogEditorViewport: Clicking on Actor (LMB): glass_C (glass18)
+[2016.10.06-13.14.20:198][600]LogEditorViewport: Clicking on Actor (CTRL LMB): DoorBluePrint_C (DoorBluePrint)
+[2016.10.06-13.16.17:498][ 36]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.06-13.16.17:616][ 36]LogBlueprint:Warning: Compiler Warning [4444.56] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 120 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.16.17:616][ 36]LogBlueprint:Warning: Compiler Warning [4444.56] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.16.17:617][ 36]LogBlueprint:Warning: Compiler Warning [4444.56] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.16.17:617][ 36]LogBlueprint:Warning: Compiler Warning [4444.56] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.16.17:617][ 36]LogBlueprint:Warning: Compiler Warning [4444.56] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.16.17:617][ 36]LogBlueprint:Warning: Compiler Warning [4444.56] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.16.18:878][ 36]LogSavePackage: Save=1384.36ms
+[2016.10.06-13.16.18:878][ 36]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.16.18:879][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.19:379][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.19:879][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.20:379][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.20:879][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.21:379][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.21:879][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.22:379][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.22:879][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.23:379][ 36]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.16.23:879][ 36]LogFileManager:Error: Error moving file '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap967F73AC4A692230DF483695D5969250.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2016.10.06-13.16.23:879][ 36]LogSavePackage:Error: Error saving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.16.23:881][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.06-13.16.23:886][ 36]EditorErrors: New page: Save Output
+[2016.10.06-13.16.23:886][ 36]EditorErrors:Warning: Warning Error saving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.16.51:238][239]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame13)
+[2016.10.06-13.17.09:691][993]LogEditorViewport: Clicking on Actor (LMB): DoorBluePrint_C (DoorBluePrint13)
+[2016.10.06-13.17.13:690][425]Cmd: TRANSACTION UNDO
+[2016.10.06-13.17.13:690][425]LogEditorTransaction: Undo Move Actors
+[2016.10.06-13.19.01:882][305]Cmd: TRANSACTION UNDO
+[2016.10.06-13.19.01:882][305]LogEditorTransaction: Undo Move Actors
+[2016.10.06-13.19.32:183][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door11)
+[2016.10.06-13.19.35:225][346]LogEditorViewport: Clicking on Actor (CTRL LMB): glass_C (glass11)
+[2016.10.06-13.19.43:313][122]Cmd: DELETE
+[2016.10.06-13.19.43:313][122]Cmd: ACTOR DELETE
+[2016.10.06-13.19.43:320][122]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.06-13.19.43:323][122]LogEditorActor: Deleted Actor: glass_C
+[2016.10.06-13.19.43:352][122]LogEditorActor: Deleted 2 Actors (0.038 secs)
+[2016.10.06-13.19.45:511][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door11)
+[2016.10.06-13.19.47:746][590]LogEditorViewport: Clicking on Actor (CTRL LMB): glass_C (glass11)
+[2016.10.06-13.19.50:027][842]Cmd: TRANSACTION UNDO
+[2016.10.06-13.19.50:027][842]LogEditorTransaction: Undo Select Brush Surface
+[2016.10.06-13.19.51:988][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door11)
+[2016.10.06-13.20.06:969][230]LogEditorViewport: Clicking on Actor (CTRL LMB): glass_C (glass11)
+[2016.10.06-13.20.08:108][353]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame12)
+[2016.10.06-13.20.17:468][165]LogHttp:Warning: Timeout processing Http request. 00000000309D8400
+[2016.10.06-13.20.39:930][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door18)
+[2016.10.06-13.20.43:892][562]LogEditorViewport: Clicking on Actor (CTRL LMB): glass_C (glass26)
+[2016.10.06-13.20.44:958][681]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame33)
+[2016.10.06-13.21.19:414][449]LogHttp:Warning: Timeout processing Http request. 000000004EBC6200
+[2016.10.06-13.21.43:292][355]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.06-13.21.43:404][355]LogBlueprint:Warning: Compiler Warning [4770.33] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 114 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.43:404][355]LogBlueprint:Warning: Compiler Warning [4770.33] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.43:404][355]LogBlueprint:Warning: Compiler Warning [4770.33] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.43:404][355]LogBlueprint:Warning: Compiler Warning [4770.33] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.43:405][355]LogBlueprint:Warning: Compiler Warning [4770.33] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.43:405][355]LogBlueprint:Warning: Compiler Warning [4770.33] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.44:657][355]LogSavePackage: Save=1369.44ms
+[2016.10.06-13.21.44:657][355]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.21.44:657][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.45:157][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.45:657][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.46:157][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.46:657][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.47:157][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.47:657][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.48:157][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.48:657][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.49:157][355]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.49:657][355]LogFileManager:Error: Error moving file '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMap1822D0274AC6BAA9CEEC2DA1437C9411.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2016.10.06-13.21.49:657][355]LogSavePackage:Error: Error saving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.21.49:659][355]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.06-13.21.49:666][355]EditorErrors: New page: Save Output
+[2016.10.06-13.21.49:666][355]EditorErrors:Warning: Warning Error saving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.21.56:621][969]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.06-13.21.56:738][969]LogBlueprint:Warning: Compiler Warning [4783.66] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 119 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.56:738][969]LogBlueprint:Warning: Compiler Warning [4783.66] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.56:738][969]LogBlueprint:Warning: Compiler Warning [4783.66] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.56:738][969]LogBlueprint:Warning: Compiler Warning [4783.66] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.56:739][969]LogBlueprint:Warning: Compiler Warning [4783.66] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.56:739][969]LogBlueprint:Warning: Compiler Warning [4783.66] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.06-13.21.58:006][969]LogSavePackage: Save=1389.75ms
+[2016.10.06-13.21.58:006][969]LogSavePackage: Moving '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapCB1C072A4A447018AC02AD85C2BF22CA.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.06-13.21.58:007][969]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapCB1C072A4A447018AC02AD85C2BF22CA.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.58:507][969]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapCB1C072A4A447018AC02AD85C2BF22CA.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.59:007][969]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapCB1C072A4A447018AC02AD85C2BF22CA.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.21.59:507][969]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Saved/ThirdPersonExampleMapCB1C072A4A447018AC02AD85C2BF22CA.tmp' to '../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2016.10.06-13.22.00:008][969]LogFileManager:Warning: MoveFile recovered during retry!
+[2016.10.06-13.22.00:011][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/anpaint19/Google Drive/SchoolRunner 4.12/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.06-13.22.00:032][969]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.467
+[2016.10.06-13.22.00:141][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.06-13.22.00:330][970]Cmd: QUIT_EDITOR
+[2016.10.06-13.22.00:382][970]LogExit: Preparing to exit.
+[2016.10.06-13.22.01:012][970]LogExit: Editor shut down
+[2016.10.06-13.22.01:013][970]LogExit: Transaction tracking system shut down
+[2016.10.06-13.22.01:134][970]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.06-13.22.01:134][970]LogExit: Object subsystem successfully closed.
+[2016.10.06-13.22.01:152][970]LogD3D11RHI: Shutdown
+[2016.10.06-13.22.01:152][970]LogD3D11RHI: CleanupD3DDevice
+[2016.10.06-13.22.01:238][970]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.06-13.22.01:245][970]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (216)
+[2016.10.06-13.22.01:245][970]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.06-13.22.01:245][970]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.10.06-13.22.01:245][970]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.06-13.22.01:245][970]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.06-13.22.01:245][970]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.06-13.22.01:245][970]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.06-13.22.01:245][970]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.06-13.22.01:246][970]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.06-13.22.01:247][970]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.06-13.22.01:486][970]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.06-13.22.01:487][970]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.06-13.22.01:487][970]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.06-13.22.01:487][970]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.06-13.22.01:487][970]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.06-13.22.01:487][970]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.06-13.22.01:487][970]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.06-13.22.01:487][970]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.06-13.22.01:537][970]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.06-13.22.01:665][970]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.06-13.22.01:666][970]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.06-13.22.01:667][970]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.06-13.22.01:667][970]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.06-13.22.01:767][970]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.06-13.22.01:768][970]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.06-13.22.01:771][970]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.06-13.22.01:771][970]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.06-13.22.01:771][970]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.06-13.22.01:771][970]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.06-13.22.01:771][970]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.06-13.22.01:771][970]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.06-13.22.01:771][970]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.06-13.22.01:919][970]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.06-13.22.01:919][970]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.06-13.22.01:919][970]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.06-13.22.01:919][970]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.06-13.22.01:955][970]LogDerivedDataCache: Shutdown
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.06-13.22.01:955][970]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.06-13.22.01:956][970]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.06-13.25.02:456][970]LogHttp:Warning: Timeout processing Http request. 0000000030EC2500
+[2016.10.06-13.25.02:956][970]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.06-13.25.02:956][970]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.06-13.25.02:956][970]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.06-13.25.02:956][970]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.06-13.25.02:956][970]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.06-13.25.02:956][970]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.06-13.25.02:956][970]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.06-13.25.02:958][970]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.06-13.25.02:958][970]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.06-13.25.02:958][970]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.06-13.25.02:958][970]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.06-13.25.02:959][970]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.06-13.25.02:959][970]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.06-13.25.02:959][970]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.06-13.25.02:959][970]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.06-13.25.02:959][970]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.06-13.25.02:959][970]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.06-13.25.02:963][970]LogExit: Exiting.
+[2016.10.06-13.25.02:990][970]Log file closed, 10/06/16 09:25:02
