@@ -416,4 +416,152 @@ LogInit: Object subsystem initialized
 [2016.10.10-12.41.46:481][396]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
 [2016.10.10-12.41.46:481][396]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
 [2016.10.10-12.41.46:481][396]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT)
-[2016.1
+[2016.10.10-12.41.46:481][396]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.10.10-12.41.46:481][396]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.10.10-12.41.47:108][396]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.10.10-12.41.47:108][396]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.10.10-12.41.47:108][396]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.10.10-12.41.47:154][396]Lightmass on 2016-KISER-06: 31.1 sec total, 271 ms importing, 53 ms setup, 2.57 sec photons, 28.2 sec processing, 0 ms extra exporting [2754/2754 mappings]. Threads: 3:17 min total, 1:58 min processing.
+[2016.10.10-12.41.47:339][396]LogStaticLightingSystem: Illumination: 41.3 sec (2.05 sec encoding lightmaps, 632 ms encoding shadowmaps)
+[2016.10.10-12.41.47:339][396]LogStaticLightingSystem: Lightmap texture memory:  13.3 MB (5.3 MB streaming, 8.0 MB non-streaming), 12 textures
+[2016.10.10-12.41.47:339][396]LogStaticLightingSystem: Shadowmap texture memory: 14.0 MB (0.7 MB streaming, 13.3 MB non-streaming), 3 textures
+[2016.10.10-12.41.47:947][397]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.10-12.41.47:947][397]MapCheck: New page: ThirdPersonExampleMap - Oct 10, 2016, 3:41:47 AM
+[2016.10.10-12.41.47:991][397]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.753ms to complete.
+[2016.10.10-12.42.09:813][519]Cmd: DELETE
+[2016.10.10-12.42.09:813][519]Cmd: ACTOR DELETE
+[2016.10.10-12.42.09:820][519]LogEditorActor: Deleted Actor: Brush
+[2016.10.10-12.42.10:584][519]LogEditorActor: Deleted 1 Actors (0.771 secs)
+[2016.10.10-12.42.32:505][525]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2016.10.10-12.51.02:607][165]Cmd: DELETE
+[2016.10.10-12.51.02:607][165]Cmd: ACTOR DELETE
+[2016.10.10-12.51.02:617][165]LogEditorActor: Deleted Actor: Brush
+[2016.10.10-12.51.03:400][165]LogEditorActor: Deleted 1 Actors (0.793 secs)
+[2016.10.10-12.51.17:360][221]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.10-12.52.03:069][490]LogGeometryMode:Warning: Unable to find BoxBrush90 Brush(s) in new BSP
+[2016.10.10-12.52.03:070][490]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.10.10-12.52.03:961][561]Cmd: TRANSACTION UNDO
+[2016.10.10-12.52.03:961][561]LogEditorTransaction: Undo Select Surfaces
+[2016.10.10-12.52.32:601][944]LogGeometryMode:Warning: Unable to find BoxBrush88 Brush(s) in new BSP
+[2016.10.10-12.52.32:601][944]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2016.10.10-12.58.03:409][491]LogActorFactory: Actor Factory created Cube
+[2016.10.10-12.58.04:464][530]LogActorFactory: Actor Factory created Cube
+[2016.10.10-12.58.09:459][ 24]MapCheck: New page: Map Check
+[2016.10.10-12.58.09:475][ 24]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.10-12.58.09:478][ 24]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.10-12.58.15:343][ 24]LightingResults: New page: Lighting Build - Oct 10, 2016, 3:58:15 AM
+[2016.10.10-12.58.15:515][ 24]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.10-12.58.15:515][ 24]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.10-12.58.15:515][ 24]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.10-12.58.15:516][ 24]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.10-12.58.15:516][ 24]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2080
+[2016.10.10-12.58.24:630][ 24]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.10-12.58.24:630][ 24]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.10-12.58.24:630][ 24]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.10-12.58.24:630][ 24]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.10-12.58.24:630][ 24]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.10-12.58.24:906][ 24]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.10.10-12.58.24:906][ 24]MapCheck: New page: ThirdPersonExampleMap - Oct 10, 2016, 3:58:24 AM
+[2016.10.10-12.58.24:908][ 24]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2016.10.10-12.58.24:941][ 24]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 34.984ms to complete.
+[2016.10.10-12.58.24:961][ 24]LogEditorBuildUtils: Build time 0:15
+[2016.10.10-12.58.24:990][ 24]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.10.10-12.58.24:997][ 24]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.10.10-12.58.45:041][403]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:041][403]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:041][403]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:041][403]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:399][404]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:400][404]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:400][404]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:400][404]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:400][404]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:400][404]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:400][404]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:400][404]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:400][404]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:400][404]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:400][404]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:400][404]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:400][404]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:400][404]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:400][404]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:400][404]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:709][405]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:709][405]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:709][405]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:709][405]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:709][405]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:709][405]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:709][405]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:709][405]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:709][405]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:709][405]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:709][405]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:709][405]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.45:709][405]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.45:709][405]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.46:043][406]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.46:043][406]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.46:043][406]LightingResults:Warning: Warning DoorRight Object has overlapping UVs.
+[2016.10.10-12.58.46:043][406]LightingResults: Info DoorRight Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.48:048][412]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2016.10.10-12.58.48:048][412]LightingResults: Info <None> Lightmap UV are overlapping by 9.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.10-12.58.52:385][425]Job is a success!
+[2016.10.10-12.58.56:061][426]LightingResults:Error: Error PointLight_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight11_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight19 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight10_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight18 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight16_7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight6_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.56:062][426]LightingResults:Error: Error PointLight9_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.10.10-12.58.58:103][426]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.10.10-12.58.58:723][426]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.10.10-12.58.58:723][426]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2016.10.10-12.58.58:723][426]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2016.10.10-12.58.58:749][426]Lightmass on 2016-KISER-06: 32.4 sec total, 265 ms importing, 54 ms setup, 2.47 sec photons, 29.6 sec processing, 0 ms extra exporting [2749/2749 mappings]. Threads: 3:27 min total, 1:55 min processing.
+[2016.10.10-12.58.58:933][426]LogStaticLightingSystem: Illumination: 43.2 sec (2.02 sec encoding lightmaps, 623 ms encoding shadowmaps)
+[2016.10.10-12.58.58:933][426]LogStaticLightingSystem: Lightmap texture memory:  13.3 MB (5.3 MB streaming, 8.0 MB non-streaming), 12 textures
+[2016.10.10-12.58.58:933][426]LogStaticLightingSystem: Shadowmap texture memory: 14.0 MB (0.7 MB streaming, 13.3 MB non-streaming), 3 textures
+[2016.10.10-12.58.59:583][427]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.10-12.58.59:583][427]MapCheck: New page: ThirdPersonExampleMap - Oct 10, 2016, 3:58:59 AM
+[2016.10.10-12.58.59:627][427]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.922ms to complete.
+[2016.10.10-12.59.39:059][263]Cmd: DELETE
+[2016.10.10-12.59.39:059][263]Cmd: ACTOR DELETE
+[2016.10.10-12.59.39:064][263]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.10.10-12.59.39:080][263]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.10-12.59.49:968][276]LogUObjectHash:Warning: Ambiguous search, could be Material /Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial or Material /Game/OtherUnrealStuff/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial
+[2016.10.10-13.01.07:409][679]Cmd: TRANSACTION UNDO
+[2016.10.10-13.01.07:409][679]LogEditorTransaction: Undo Move Actors
+[2016.10.10-13.01.07:495][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush199.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:499][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush264.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:548][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush107_6.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:549][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush98.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:552][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:555][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush424.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:556][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush414.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:560][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush502.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:565][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush340.BrushComponent0) Component already registered.
+[2016.10.10-13.01.07:569][679]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush400.Bru
